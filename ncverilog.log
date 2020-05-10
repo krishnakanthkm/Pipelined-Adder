@@ -1,0 +1,173 @@
+ncverilog: 15.20-s076: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s076: Started on May 10, 2020 at 00:55:07 PDT
+ncverilog
+	+access+r
+	test.sv
+Recompiling... reason: file './dut.sv' is newer than expected.
+	expected: Sun May 10 00:50:30 2020
+	actual:   Sun May 10 00:55:00 2020
+file: test.sv
+	module worklib.pipeline:sv
+		errors: 0, warnings: 0
+	module worklib.carry_select:sv
+		errors: 0, warnings: 0
+	module worklib.mux:sv
+		errors: 0, warnings: 0
+	module worklib.ripple_carry:sv
+		errors: 0, warnings: 0
+	module worklib.full_adder:sv
+		errors: 0, warnings: 0
+	module worklib.half_adder:sv
+		errors: 0, warnings: 0
+endmodule;
+         |
+ncvlog: *W,UEXPSC (test.sv,51|9): Ignored unexpected semicolon following SystemVerilog description keyword (endmodule).
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+carry_select cs0 (.a(ai), .b(bi), .cin(ci), .csum(s0_d), .cout(co0_d));
+                                        |
+ncelab: *W,CUVMPW (./dut.sv,10|40): port sizes differ in port connection (4/1).
+	Building instance overlay tables: ........ Done
+	Generating native compiled code:
+		worklib.carry_select:sv <0x2d0b2079>
+			streams:   0, words:     0
+		worklib.carry_select:sv <0x6a9b9b3b>
+			streams:   0, words:     0
+		worklib.mux:sv <0x1bf4257e>
+			streams:   0, words:     0
+		worklib.mux:sv <0x3d682d91>
+			streams:   1, words:   419
+		worklib.mux:sv <0x5659cea0>
+			streams:   1, words:   334
+		worklib.pipeline:sv <0x41ca9a5b>
+			streams:  13, words: 14339
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                276       7
+		Primitives:             387       3
+		Registers:               67      67
+		Scalar wires:            25       -
+		Expanded wires:          64      13
+		Vectored wires:           8       -
+		Always blocks:            2       2
+		Initial blocks:           5       5
+		Cont. assignments:        7       4
+		Pseudo assignments:      11      11
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.test:sv
+Loading snapshot worklib.test:sv .................... Done
+SVSEED default: 1
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+ncsim> source /apps/cadence/INCISIVE152/tools/inca/files/ncsimrc
+ncsim> run
+ time =                    0,  a =     0, b=     0, cin = 0, cout = 0, sum =     0
+ time =                10000,  a = 26740, b=  8209, cin = 1, cout = 0, sum =     0
+ time =                13100,  a = 26740, b=  8209, cin = 1, cout = 0, sum = 34950
+ time =                20000,  a = 62597, b= 15307, cin = 1, cout = 0, sum = 34950
+ time =                23100,  a = 62597, b= 15307, cin = 1, cout = 1, sum = 12369
+ time =                30000,  a = 53196, b= 15776, cin = 1, cout = 1, sum = 12369
+ time =                33100,  a = 53196, b= 15776, cin = 1, cout = 1, sum =  3437
+ time =                40000,  a = 53756, b= 56636, cin = 1, cout = 1, sum =  3437
+ time =                43100,  a = 53756, b= 56636, cin = 1, cout = 1, sum = 44857
+ time =                50000,  a =  8612, b= 27453, cin = 0, cout = 1, sum = 44857
+ time =                53100,  a =  8612, b= 27453, cin = 0, cout = 0, sum = 36065
+ time =                60000,  a = 22223, b=  3688, cin = 1, cout = 0, sum = 36065
+ time =                63100,  a = 22223, b=  3688, cin = 1, cout = 0, sum = 25912
+ time =                70000,  a = 60039, b= 57642, cin = 1, cout = 0, sum = 25912
+ time =                73100,  a = 60039, b= 57642, cin = 1, cout = 1, sum = 52146
+ time =                80000,  a = 60618, b=   929, cin = 1, cout = 1, sum = 52146
+ time =                83100,  a = 60618, b=   929, cin = 1, cout = 0, sum = 61548
+ time =                90000,  a = 39438, b= 52612, cin = 1, cout = 0, sum = 61548
+ time =                93100,  a = 39438, b= 52612, cin = 1, cout = 1, sum = 26515
+ time =               100000,  a = 22979, b= 37361, cin = 1, cout = 1, sum = 26515
+ time =               103100,  a = 22979, b= 37361, cin = 1, cout = 0, sum = 60341
+ time =               110000,  a = 12754, b= 32464, cin = 0, cout = 0, sum = 60341
+ time =               113100,  a = 12754, b= 32464, cin = 0, cout = 0, sum = 45218
+ time =               120000,  a = 55313, b= 57110, cin = 1, cout = 0, sum = 45218
+ time =               123100,  a = 55313, b= 57110, cin = 1, cout = 1, sum = 46888
+ time =               130000,  a = 55578, b= 32086, cin = 1, cout = 1, sum = 46888
+ time =               133100,  a = 55578, b= 32086, cin = 1, cout = 1, sum = 22129
+ time =               140000,  a = 19894, b=   843, cin = 1, cout = 1, sum = 22129
+ time =               143100,  a = 19894, b=   843, cin = 1, cout = 0, sum = 20738
+ time =               150000,  a = 34457, b= 44091, cin = 1, cout = 0, sum = 20738
+ time =               153100,  a = 34457, b= 44091, cin = 1, cout = 1, sum = 13013
+ time =               160000,  a = 19693, b= 38808, cin = 1, cout = 1, sum = 13013
+ time =               163100,  a = 19693, b= 38808, cin = 1, cout = 0, sum = 58502
+ time =               170000,  a = 40633, b= 28278, cin = 1, cout = 0, sum = 58502
+ time =               173100,  a = 40633, b= 28278, cin = 1, cout = 1, sum =  3376
+ time =               180000,  a = 18977, b= 26934, cin = 1, cout = 1, sum =  3376
+ time =               183100,  a = 18977, b= 26934, cin = 1, cout = 0, sum = 45912
+ time =               190000,  a = 36520, b= 49524, cin = 0, cout = 0, sum = 45912
+ time =               193100,  a = 36520, b= 49524, cin = 0, cout = 1, sum = 20508
+ time =               200000,  a = 47408, b=  3627, cin = 1, cout = 1, sum = 20508
+ time =               203100,  a = 47408, b=  3627, cin = 1, cout = 0, sum = 51036
+ time =               210000,  a = 29611, b= 22476, cin = 0, cout = 0, sum = 51036
+ time =               213100,  a = 29611, b= 22476, cin = 0, cout = 0, sum = 52087
+ time =               220000,  a =  9006, b= 35223, cin = 0, cout = 0, sum = 52087
+ time =               223100,  a =  9006, b= 35223, cin = 0, cout = 0, sum = 44229
+ time =               230000,  a = 44562, b= 51899, cin = 1, cout = 0, sum = 44229
+ time =               233100,  a = 44562, b= 51899, cin = 1, cout = 1, sum = 30926
+ time =               240000,  a = 21066, b= 58979, cin = 0, cout = 1, sum = 30926
+ time =               243100,  a = 21066, b= 58979, cin = 0, cout = 1, sum = 14509
+ time =               250000,  a = 37959, b= 43222, cin = 1, cout = 1, sum = 14509
+ time =               253100,  a = 37959, b= 43222, cin = 1, cout = 1, sum = 15646
+ time =               260000,  a = 27707, b= 58803, cin = 1, cout = 1, sum = 15646
+ time =               263100,  a = 27707, b= 58803, cin = 1, cout = 1, sum = 20975
+ time =               270000,  a =  1957, b= 41067, cin = 1, cout = 1, sum = 20975
+ time =               273100,  a =  1957, b= 41067, cin = 1, cout = 0, sum = 43025
+ time =               280000,  a =  3650, b= 34465, cin = 1, cout = 0, sum = 43025
+ time =               283100,  a =  3650, b= 34465, cin = 1, cout = 0, sum = 38116
+ time =               290000,  a =  3933, b= 39071, cin = 0, cout = 0, sum = 38116
+ time =               293100,  a =  3933, b= 39071, cin = 0, cout = 0, sum = 43004
+ time =               300000,  a = 31067, b= 49479, cin = 1, cout = 0, sum = 43004
+ time =               303100,  a = 31067, b= 49479, cin = 1, cout = 1, sum = 15011
+ time =               310000,  a = 33231, b= 55222, cin = 1, cout = 1, sum = 15011
+ time =               313100,  a = 33231, b= 55222, cin = 1, cout = 1, sum = 22918
+ time =               320000,  a = 41371, b=  4819, cin = 0, cout = 1, sum = 22918
+ time =               323100,  a = 41371, b=  4819, cin = 0, cout = 0, sum = 46190
+ time =               330000,  a = 40485, b=  6559, cin = 0, cout = 0, sum = 46190
+ time =               333100,  a = 40485, b=  6559, cin = 0, cout = 0, sum = 47044
+ time =               340000,  a = 23969, b=  8731, cin = 0, cout = 0, sum = 47044
+ time =               343100,  a = 23969, b=  8731, cin = 0, cout = 0, sum = 32700
+ time =               350000,  a = 47784, b= 48710, cin = 0, cout = 0, sum = 32700
+ time =               353100,  a = 47784, b= 48710, cin = 0, cout = 1, sum = 30958
+ time =               360000,  a = 31901, b= 27381, cin = 1, cout = 1, sum = 30958
+ time =               363100,  a = 31901, b= 27381, cin = 1, cout = 0, sum = 59283
+ time =               370000,  a = 53215, b= 57704, cin = 1, cout = 0, sum = 59283
+ time =               373100,  a = 53215, b= 57704, cin = 1, cout = 1, sum = 45384
+ time =               380000,  a = 60729, b= 52488, cin = 0, cout = 1, sum = 45384
+ time =               383100,  a = 60729, b= 52488, cin = 0, cout = 1, sum = 47681
+ time =               390000,  a =  7544, b= 28793, cin = 1, cout = 1, sum = 47681
+ time =               393100,  a =  7544, b= 28793, cin = 1, cout = 0, sum = 36338
+ time =               400000,  a = 55259, b= 13859, cin = 1, cout = 0, sum = 36338
+ time =               403100,  a = 55259, b= 13859, cin = 1, cout = 1, sum =  3583
+ time =               410000,  a = 56589, b= 24732, cin = 0, cout = 1, sum =  3583
+ time =               413100,  a = 56589, b= 24732, cin = 0, cout = 1, sum = 15785
+ time =               420000,  a = 48152, b= 17664, cin = 0, cout = 1, sum = 15785
+ time =               423100,  a = 48152, b= 17664, cin = 0, cout = 1, sum =   280
+ time =               430000,  a = 52091, b= 48478, cin = 1, cout = 1, sum =   280
+ time =               433100,  a = 52091, b= 48478, cin = 1, cout = 1, sum = 35034
+ time =               440000,  a = 41317, b= 55931, cin = 1, cout = 1, sum = 35034
+ time =               443100,  a = 41317, b= 55931, cin = 1, cout = 1, sum = 31713
+ time =               450000,  a = 53738, b= 52988, cin = 0, cout = 1, sum = 31713
+ time =               453100,  a = 53738, b= 52988, cin = 0, cout = 1, sum = 41190
+ time =               460000,  a =  8530, b= 52262, cin = 1, cout = 1, sum = 41190
+ time =               463100,  a =  8530, b= 52262, cin = 1, cout = 0, sum = 60793
+ time =               470000,  a = 42272, b= 15127, cin = 1, cout = 0, sum = 60793
+ time =               473100,  a = 42272, b= 15127, cin = 1, cout = 0, sum = 57400
+ time =               480000,  a = 37780, b= 31140, cin = 0, cout = 0, sum = 57400
+ time =               483100,  a = 37780, b= 31140, cin = 0, cout = 1, sum =  3384
+ time =               490000,  a = 27924, b=  7939, cin = 1, cout = 1, sum =  3384
+ time =               493100,  a = 27924, b=  7939, cin = 1, cout = 0, sum = 35864
+ time =               500000,  a = 10950, b= 26735, cin = 0, cout = 0, sum = 35864
+ time =               503100,  a = 10950, b= 26735, cin = 0, cout = 0, sum = 37685
+Simulation complete via $finish(1) at time 10 US + 0
+./test.sv:28  $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s076: Exiting on May 10, 2020 at 00:55:07 PDT  (total: 00:00:00)

@@ -1,0 +1,10 @@
+#!/usr/bin/csh
+
+source /apps/set_license
+setenv VCS_HOME /apps/synopsys/VCSMX_NEW
+source ${VCS_HOME}/bin/environ.csh
+which vcs
+vcs +systemverilogext+.sv -sverilog -ntb_opts dtm $argv
+if ($status != 0) exit $status
+./simv
+

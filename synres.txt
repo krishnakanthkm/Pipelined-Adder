@@ -1,0 +1,719 @@
+                                        
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+                                        
+              Version K-2015.06-SP5-1 for linux64 - Feb 26, 2016 
+                                        
+                    Copyright (c) 1988 - 2016 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+set link_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb
+set target_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25}
+/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25
+read_sverilog dut.sv
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+Loading db file '/apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb'
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/gtech.db'
+Loading db file '/apps/synopsys/SYNTH/libraries/syn/standard.sldb'
+  Loading link library 'tc240c'
+  Loading link library 'gtech'
+Loading sverilog file '/home/krishna_kanth/project/private/dut.sv'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /home/krishna_kanth/project/private/dut.sv
+Warning:  /home/krishna_kanth/project/private/dut.sv:70: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:71: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:72: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:73: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:74: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:75: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:76: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:77: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:78: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:79: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:80: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:81: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:82: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:83: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:84: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:85: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:86: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:87: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:88: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:89: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:90: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:91: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:92: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:93: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:94: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:95: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:96: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:97: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:98: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+Warning:  /home/krishna_kanth/project/private/dut.sv:99: Intraassignment delays for nonblocking assignments are ignored. (VER-130)
+
+Inferred memory devices in process
+	in routine pipeline line 36 in file
+		'/home/krishna_kanth/project/private/dut.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       ci_reg        | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       s0_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       co0_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       s01_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       s02_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       a1_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       b1_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       s1_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       co1_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       s11_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       a2_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       b2_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       a21_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       b21_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       s2_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       co2_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       a3_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       b3_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       a31_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       b31_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       a32_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       b32_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       ai_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       bi_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       aj_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       bj_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       ak_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       bk_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       al_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       bl_reg        | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/home/krishna_kanth/project/private/pipeline.db:pipeline'
+Loaded 6 designs.
+Current design is 'pipeline'.
+pipeline carry_select mux ripple_carry full_adder half_adder
+create_clock clk -name clk -period 2.25
+Information: Building the design 'mux' instantiated from design 'carry_select' with
+	the parameters "4". (HDL-193)
+Warning: Cannot find the design 'mux' in the library 'WORK'. (LBR-1)
+Information: Building the design 'mux' instantiated from design 'carry_select' with
+	the parameters "1". (HDL-193)
+Warning: Cannot find the design 'mux' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'mux' in 'carry_select'. (LINK-5)
+Warning: Design 'pipeline' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_propagated_clock clk
+Warning: Design 'pipeline' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_clock_uncertainty 0.25 clk
+Warning: Design 'pipeline' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_propagated_clock clk
+Warning: Design 'pipeline' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_output_delay 0.5 -clock clk [all_outputs]
+Warning: Design 'pipeline' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set all_inputs_wo_rst_clk [remove_from_collection [remove_from_collection [all_inputs] [get_port clk]] [get_port rst]]
+{a[15] a[14] a[13] a[12] a[11] a[10] a[9] a[8] a[7] a[6] a[5] a[4] a[3] a[2] a[1] a[0] b[15] b[14] b[13] b[12] b[11] b[10] b[9] b[8] b[7] b[6] b[5] b[4] b[3] b[2] b[1] b[0] cin}
+set_driving_cell -lib_cell CND2X1 $all_inputs_wo_rst_clk
+Warning: Design 'pipeline' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+Warning: Design rule attributes from the driving cell will be
+	set on the port. (UID-401)
+1
+set_input_delay 0.6 -clock clk $all_inputs_wo_rst_clk
+Warning: Design 'pipeline' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_output_delay 0.6 -clock clk [all_outputs]
+Warning: Design 'pipeline' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_fix_hold [ get_clocks clk ]
+Warning: Design 'pipeline' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'pipeline' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_output_delay 0.3 -clock clk [all_outputs]
+Warning: Design 'pipeline' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+set_max_delay 2.1 -from [all_inputs] -to [all_outputs]
+Warning: Design 'pipeline' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+compile_ultra
+Warning: Design 'pipeline' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Performing power optimization. (PWR-850)
+Alib files are up-to-date.
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | K-2015.06-DWBB_201506.5.1 |   *     |
+| Licensed DW Building Blocks        | I-2013.12-DWBB_201312.5 |     *     |
+============================================================================
+
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 47 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+Information: Uniquified 4 instances of design 'carry_select'. (OPT-1056)
+Information: Uniquified 8 instances of design 'ripple_carry'. (OPT-1056)
+Information: Uniquified 32 instances of design 'full_adder'. (OPT-1056)
+Information: Uniquified 64 instances of design 'half_adder'. (OPT-1056)
+  Simplifying Design 'pipeline'
+
+Information: Building the design 'mux' instantiated from design 'carry_select_3' with
+	the parameters "4". (HDL-193)
+Warning: Cannot find the design 'mux' in the library 'WORK'. (LBR-1)
+Information: Building the design 'mux' instantiated from design 'carry_select_3' with
+	the parameters "1". (HDL-193)
+Warning: Cannot find the design 'mux' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'mux' in 'carry_select_3'. (LINK-5)
+Warning: Unable to resolve reference 'mux' in 'carry_select_2'. (LINK-5)
+Warning: Unable to resolve reference 'mux' in 'carry_select_1'. (LINK-5)
+Warning: Unable to resolve reference 'mux' in 'carry_select_0'. (LINK-5)
+Loaded alib file './alib-52/tc240c.db_NOMIN25.alib'
+  Building model 'DW01_NAND2'
+Information: Ungrouping hierarchy cs0/r1/f1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r2/f4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r2/f3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r2/f2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r2/f1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r1/f4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r1/f3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r1/f2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r1/f1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r2/f4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r2/f3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r2/f2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r2/f1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r1/f4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r1/f3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r1/f2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r1/f1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r2/f4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r2/f3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r2/f2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r2/f1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r1/f4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r1/f3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r1/f2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r1/f1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r2/f4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r2/f3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r2/f2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r2/f1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r1/f4 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r1/f3 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r1/f2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r1/f1/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r2/f4/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r2/f4/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r2/f3/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r2/f3/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r2/f2/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r2/f2/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r2/f1/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r2/f1/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r1/f4/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r1/f4/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r1/f3/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r1/f3/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r1/f2/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r1/f2/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r1/f1/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs3/r1/f1/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r2/f4/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r2/f4/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r2/f3/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r2/f3/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r2/f2/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r2/f2/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r2/f1/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r2/f1/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r1/f4/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r1/f4/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r1/f3/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r1/f3/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r1/f2/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r1/f2/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r1/f1/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs2/r1/f1/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r2/f4/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r2/f4/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r2/f3/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r2/f3/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r2/f2/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r2/f2/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r2/f1/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r2/f1/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r1/f4/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r1/f4/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r1/f3/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r1/f3/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r1/f2/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r1/f2/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r1/f1/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs1/r1/f1/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r2/f4/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r2/f4/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r2/f3/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r2/f3/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r2/f2/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r2/f2/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r2/f1/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r2/f1/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r1/f4/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r1/f4/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r1/f3/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r1/f3/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r1/f2/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r1/f2/ha1 before Pass 1 (OPT-776)
+Information: Ungrouping hierarchy cs0/r1/f1/ha2 before Pass 1 (OPT-776)
+Information: Ungrouping 96 of 109 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'pipeline'
+  Processing 'ripple_carry_0'
+  Processing 'ripple_carry_1'
+  Processing 'carry_select_0'
+  Processing 'carry_select_3'
+Information: Building the design 'mux' instantiated from design 'carry_select_3' with
+	the parameters "4". (HDL-193)
+Warning: Cannot find the design 'mux' in the library 'WORK'. (LBR-1)
+Information: Building the design 'mux' instantiated from design 'carry_select_3' with
+	the parameters "1". (HDL-193)
+Warning: Cannot find the design 'mux' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'mux' in 'carry_select_3'. (LINK-5)
+Warning: Unable to resolve reference 'mux' in 'carry_select_0'. (LINK-5)
+Warning: Design 'pipeline' has '2' unresolved references. For more detailed information, use the "link" command. (UID-341)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Warning: Main library 'tc240c' does not specify the following unit required for power: 'Leakage Power'. (PWR-424)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+  Mapping Optimization (Phase 1)
+Information: Added key list 'DesignWare' to design 'ripple_carry_7'. (DDB-72)
+Information: Added key list 'DesignWare' to design 'ripple_carry_6'. (DDB-72)
+Information: Added key list 'DesignWare' to design 'ripple_carry_0'. (DDB-72)
+Information: Added key list 'DesignWare' to design 'ripple_carry_2'. (DDB-72)
+Information: Added key list 'DesignWare' to design 'ripple_carry_4'. (DDB-72)
+Information: Added key list 'DesignWare' to design 'ripple_carry_1'. (DDB-72)
+Information: Added key list 'DesignWare' to design 'ripple_carry_3'. (DDB-72)
+Information: Added key list 'DesignWare' to design 'ripple_carry_5'. (DDB-72)
+
+  Beginning Constant Register Removal
+  -----------------------------------
+
+  Beginning Global Optimizations
+  ------------------------------
+  Numerical Synthesis (Phase 1)
+  Numerical Synthesis (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+  Global Optimization (Phase 29)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'clk' will be added to the clock's propagated skew. (TIM-112)
+
+  Beginning Isolate Ports
+  -----------------------
+
+  Beginning Delay Optimization
+  ----------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:02     812.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:02     812.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:02     812.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:02     722.0      0.00       0.0     758.6                              0.0000      0.00  
+
+  Beginning WLM Backend Optimization
+  --------------------------------------
+    0:00:02     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:02     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:03     722.0      0.00       0.0     758.6                              0.0000      0.00  
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+  Global Optimization (Phase 32)
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+
+                                  TOTAL                                                            
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE   MIN DELAY 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER      COST    
+  --------- --------- --------- --------- --------- ------------------------- --------- -----------
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     722.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     712.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     712.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     712.0      0.00       0.0       0.0                              0.0000      0.00  
+    0:00:03     712.0      0.00       0.0       0.0                              0.0000      0.00  
+Loading db file '/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Information: Building the design 'mux' instantiated from design 'carry_select_3' with
+	the parameters "4". (HDL-193)
+Warning: Cannot find the design 'mux' in the library 'WORK'. (LBR-1)
+Information: Building the design 'mux' instantiated from design 'carry_select_3' with
+	the parameters "1". (HDL-193)
+Warning: Cannot find the design 'mux' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'mux' in 'carry_select_3'. (LINK-5)
+Warning: Unable to resolve reference 'mux' in 'carry_select_2'. (LINK-5)
+Warning: Unable to resolve reference 'mux' in 'carry_select_1'. (LINK-5)
+Warning: Unable to resolve reference 'mux' in 'carry_select_0'. (LINK-5)
+Information: State dependent leakage is now switched from off to on.
+Warning: Main library 'tc240c' does not specify the following unit required for power: 'Leakage Power'. (PWR-424)
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated black box outputs. (PWR-428)
+1
+create_clock clk -name clk -period 1.25
+Information: Building the design 'mux' instantiated from design 'carry_select_3' with
+	the parameters "4". (HDL-193)
+Warning: Cannot find the design 'mux' in the library 'WORK'. (LBR-1)
+Information: Building the design 'mux' instantiated from design 'carry_select_3' with
+	the parameters "1". (HDL-193)
+Warning: Cannot find the design 'mux' in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'mux' in 'carry_select_3'. (LINK-5)
+Warning: Unable to resolve reference 'mux' in 'carry_select_2'. (LINK-5)
+Warning: Unable to resolve reference 'mux' in 'carry_select_1'. (LINK-5)
+Warning: Unable to resolve reference 'mux' in 'carry_select_0'. (LINK-5)
+Warning: Design 'pipeline' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+update_timing
+Warning: Design 'pipeline' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Updating design information... (UID-85)
+1
+report_timing -max_paths 5
+Warning: Design 'pipeline' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 5
+Design : pipeline
+Version: K-2015.06-SP5-1
+Date   : Sun May 10 01:16:20 2020
+****************************************
+
+Operating Conditions: NOMIN25   Library: tc240c
+Wire Load Model Mode: top
+
+  Startpoint: a[4] (input port clocked by clk)
+  Endpoint: aj_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  a[4] (in)                                0.00       0.60 f
+  aj_reg[0]/D (CFD2QXL)                    0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock clk (rise edge)                    1.25       1.25
+  clock network delay (ideal)              0.00       1.25
+  clock uncertainty                       -0.25       1.00
+  aj_reg[0]/CP (CFD2QXL)                   0.00       1.00 r
+  library setup time                      -0.21       0.79
+  data required time                                  0.79
+  -----------------------------------------------------------
+  data required time                                  0.79
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.18
+
+
+  Startpoint: a[3] (input port clocked by clk)
+  Endpoint: ai_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  a[3] (in)                                0.00       0.60 f
+  ai_reg[3]/D (CFD2QXL)                    0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock clk (rise edge)                    1.25       1.25
+  clock network delay (ideal)              0.00       1.25
+  clock uncertainty                       -0.25       1.00
+  ai_reg[3]/CP (CFD2QXL)                   0.00       1.00 r
+  library setup time                      -0.21       0.79
+  data required time                                  0.79
+  -----------------------------------------------------------
+  data required time                                  0.79
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.18
+
+
+  Startpoint: a[2] (input port clocked by clk)
+  Endpoint: ai_reg[2] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  a[2] (in)                                0.00       0.60 f
+  ai_reg[2]/D (CFD2QXL)                    0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock clk (rise edge)                    1.25       1.25
+  clock network delay (ideal)              0.00       1.25
+  clock uncertainty                       -0.25       1.00
+  ai_reg[2]/CP (CFD2QXL)                   0.00       1.00 r
+  library setup time                      -0.21       0.79
+  data required time                                  0.79
+  -----------------------------------------------------------
+  data required time                                  0.79
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.18
+
+
+  Startpoint: a[1] (input port clocked by clk)
+  Endpoint: ai_reg[1] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  a[1] (in)                                0.00       0.60 f
+  ai_reg[1]/D (CFD2QXL)                    0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock clk (rise edge)                    1.25       1.25
+  clock network delay (ideal)              0.00       1.25
+  clock uncertainty                       -0.25       1.00
+  ai_reg[1]/CP (CFD2QXL)                   0.00       1.00 r
+  library setup time                      -0.21       0.79
+  data required time                                  0.79
+  -----------------------------------------------------------
+  data required time                                  0.79
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.18
+
+
+  Startpoint: a[0] (input port clocked by clk)
+  Endpoint: ai_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     0.60       0.60 f
+  a[0] (in)                                0.00       0.60 f
+  ai_reg[0]/D (CFD2QXL)                    0.00       0.60 f
+  data arrival time                                   0.60
+
+  clock clk (rise edge)                    1.25       1.25
+  clock network delay (ideal)              0.00       1.25
+  clock uncertainty                       -0.25       1.00
+  ai_reg[0]/CP (CFD2QXL)                   0.00       1.00 r
+  library setup time                      -0.21       0.79
+  data required time                                  0.79
+  -----------------------------------------------------------
+  data required time                                  0.79
+  data arrival time                                  -0.60
+  -----------------------------------------------------------
+  slack (MET)                                         0.18
+
+
+1
+write -hierarchy -format verilog -output adder.v
+Warning: Design 'pipeline' has '4' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Writing verilog file '/home/krishna_kanth/project/private/adder.v'.
+Warning: Verilog 'assign' or 'tran' statements are written out. (VO-4)
+1
+quit
+
+Thank you...
